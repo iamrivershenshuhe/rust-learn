@@ -1,0 +1,8 @@
+[package]
+name = "v02_cargo"
+version = "0.1.0"
+edition = "2024" #rust version
+
+[dependencies]
+
+#配置格式
