@@ -22,6 +22,25 @@
 
 學習重點不只是讓程式成功執行，也包括理解語法背後的概念、先自行思考解法，再透過實作與驗證修正理解。部分程式碼保留學習當下的註解與嘗試，不一定代表最佳實踐。
 
+## November Detoxing Project
+
+**November 2026 · Less prompting, more coding.**
+
+這個月的目標是透過 **Rust 學習，同步複習 Data Structures & Algorithms（DSA）**，減少對 AI 直接產生程式碼的依賴，重新建立獨立思考、實作與除錯的能力。
+
+### 目標
+
+- **Rust：** 持續練習 Ownership、Borrowing、型別、控制流程及標準函式庫。
+- **Data Structures：** 使用 Rust 重新理解並實作常見資料結構。
+- **Algorithms：** 複習搜尋、排序、遞迴與基本演算法思維，分析時間與空間複雜度。
+- **Coding Detox：** 先自行拆解問題、寫出可執行的解法並測試；AI 用於概念釐清、提示與 Code Review，而不是直接代寫。
+
+### 練習原則
+
+**Define the problem → Think → Code → Test → Reflect**
+
+重點不是每天寫多少行程式碼，而是能否理解自己的每個決策，並逐步獨立完成題目。
+
 ## 專案結構
 
 | 目錄 | 學習內容 |
