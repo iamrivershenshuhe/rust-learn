@@ -70,6 +70,26 @@ cargo run
 
 程式碼與註解主要用於記錄個人理解及實作歷程，並非教材內容的完整重製。
 
+## 延伸學習資源
+
+以下整理其他值得探索的 Rust 教材，作為日後複習與進階學習的參考；**列在這裡不代表已完成學習**。
+
+### 官方教材與互動練習
+
+- [**The Rust Programming Language**](https://doc.rust-lang.org/book/) — Rust 官方入門教材（也列於上方主要學習資源）。
+- [**Rust By Example**](https://doc.rust-lang.org/rust-by-example/) — 以可執行範例理解 Rust 語法及概念。
+- [**The Rust Programming Language: Experimental Edition**](https://rust-book.cs.brown.edu/) — 提供互動測驗，以及 Ownership 等概念的補充說明。
+- [**Rust Development Classes**](https://rust-classes.com/) — 偏重動手實作的範例與練習。
+
+### 不同背景與深入學習
+
+- [**Comprehensive Rust — Google**](https://google.github.io/comprehensive-rust/) — Google Android 團隊開發的免費課程，從基礎語法延伸至泛型、錯誤處理、並行及系統領域。
+- [**Yet Another Rust Resource (YARR!)**](https://yet-another-rust-resource.pages.dev/introduction) — 適合已有高階語言經驗、希望接觸較低階程式設計概念的學習者。
+- [**The Rust Book (Abridged)**](https://jasonwalton.ca/rust-book-abridged/) — 精簡版 The Rust Book，方便已有其他程式語言基礎的人快速閱讀。
+- [**Idiomatic Rust Snippets**](https://idiomatic-rust-snippets.org/) — Rust 常見語法、設計模式與演算法的簡短範例。
+- [**Rust Training Books — Microsoft**](https://microsoft.github.io/RustTraining/) — 從 C/C++、C#、Python 等語言背景切入 Rust 的教材。
+- [**Learning Rust**](https://learning-rust.github.io/) — 面向不同程度讀者的 Rust 教學資源。
+
 ## 學習方式
 
 **理解概念 → 自行思考 → 動手實作 → 驗證與修正**
