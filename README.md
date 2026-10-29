@@ -100,4 +100,6 @@ cargo run
 
 <div align="center">
   <sub>Personal Rust learning journey · Work in progress</sub>
+
+  <p><img src="https://raw.githubusercontent.com/iamrivershenshuhe/iamrivershenshuhe/main/patrick-jane.gif" alt="Patrick Jane" width="420"></p>
 </div>
