@@ -4,3 +4,14 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+
+rand = "0.10.3"
+
+
+#if you write something new in cargo.toml we need to run
+# "cargo build" in the project terminals
+#
+#
+# cargo system will be disscuessed in v14
+#
+#
