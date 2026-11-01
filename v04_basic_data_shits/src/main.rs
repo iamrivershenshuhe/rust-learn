@@ -1,4 +1,4 @@
-use std::{cmp::Ordering, io};
+use std::{cmp::Ordering, io, ops::ControlFlow::Break};
 
 use rand::prelude::*;
 
@@ -18,14 +18,6 @@ use rand::prelude::*;
 
 fn main() {
     println!("guesd the numbers");
-
-    let mut guess = String::new();
-
-    io::stdin()
-        .read_line(&mut guess)
-        .expect("fail to read the fucking line motherfucker");
-
-    println!("your guess is {}", guess);
 
     //複習一下 常數的一些定義
     //
@@ -56,12 +48,27 @@ fn main() {
     //use match instead of compare
     //
     //
+    //前面雖然已經 define 過一個 "guess" 這邊引入了一個rust 的語言特性 shadow
+    // 跟mut 最大的區別是 mut 是直接改變原變數記憶體位置中的值 但是shadowing 是直接 malloc 一個新的記憶體位置 跟原來遍去沒有關戲
     //
-    let guess: u32 = guess.trim().parse().expect("please type a num");
+    //
 
-    match guess.cmp(&secret_number) {
-        Ordering::Less => println!("too small"),
-        Ordering::Greater => println!("too big"),
-        Ordering::Equal => println!("of course son of the bitch"),
+    loop {
+        let mut guess = String::new();
+        io::stdin()
+            .read_line(&mut guess)
+            .expect("fail to read the fucking line motherfucker");
+
+        println!("your guess is {}", guess);
+        let guess: u32 = guess.trim().parse().expect("please type a num");
+
+        match guess.cmp(&secret_number) {
+            Ordering::Less => println!("too small"),
+            Ordering::Greater => println!("too big"),
+            Ordering::Equal => {
+                println!("of course son of the bitch");
+                break;
+            }
+        }
     }
 }
